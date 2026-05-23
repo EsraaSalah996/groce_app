@@ -18,7 +18,7 @@ class CustomButton extends StatelessWidget {
         ),
         alignment: Alignment.center,
         child: Text(
-          "Login",
+          title,
           style: TextStyle(
             color: Color(0xffFFF9FF),
             fontSize: 18,
