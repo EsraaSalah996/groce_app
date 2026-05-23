@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class CustomBottomText extends StatelessWidget {
-  const CustomBottomText({super.key});
+  final String title;
+  const CustomBottomText({super.key, required this.title});
 
   @override
   Widget build(BuildContext context) {
@@ -9,7 +10,7 @@ class CustomBottomText extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Text(
-          "Don’t have an account? ",
+          title,
           style: TextStyle(
             color: Color(0xff181725),
             fontSize: 14,
