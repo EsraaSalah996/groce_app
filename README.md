@@ -1,16 +1,63 @@
 # groce_app
+A modern Flutter grocery shopping application built with reusable widgets and clean folder structure.
 
-A new Flutter project.
+---
 
-## Getting Started
+# ✨ Features
 
-This project is a starting point for a Flutter application.
+*  Login Screen
+*  Register Screen
+*  Reusable Widgets
+*  Responsive UI
+*  Git & GitHub Workflow
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# 🛠️ Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Flutter
+* Dart
+
+---
+
+# 📸 Screenshots
+
+## Login Screen
+<img width="306" height="640" alt="Screenshot 2026-05-24 at 12 11 26 AM" src="https://github.com/user-attachments/assets/4f2c3c27-ef73-4bd4-89d8-96ef4dfc6a28" />
+
+
+
+---
+
+## Register Screen
+<img width="306" height="634" alt="Screenshot 2026-05-24 at 12 08 21 AM" src="https://github.com/user-attachments/assets/1290432b-7a2a-4262-8d1f-11c149581104" />
+
+
+---
+
+# 📂 Project Structure
+
+```bash id="ekz0u0"
+lib/
+│
+├── screens/
+├── widgets/
+├── my_app.dart
+└── main.dart
+```
+
+---
+
+# 🌱 Branches
+
+* `main` → Stable code
+
+
+---
+
+# 👩‍💻 Author
+
+Esraa Salah
+
+GitHub:
+https://github.com/EsraaSalah996
