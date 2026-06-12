@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:groce_app/screens/home_screen.dart';
-import 'package:groce_app/widgets/custom_bottom_text.dart';
-import 'package:groce_app/widgets/custom_button.dart';
-import 'package:groce_app/widgets/custom_screen_background.dart';
-import 'package:groce_app/widgets/custom_text_feild.dart';
-import 'package:groce_app/widgets/custom_warning_text.dart';
+import 'package:groce_app/screens/register_screen/screens/register_screen.dart';
+import 'package:groce_app/shared_widgets/custom_bottom_text.dart';
+import 'package:groce_app/shared_widgets/custom_button.dart';
+import 'package:groce_app/shared_widgets/custom_screen_background.dart';
+import 'package:groce_app/shared_widgets/custom_text_feild.dart';
 
-class RegisterScreen extends StatelessWidget {
-  const RegisterScreen({super.key});
+class LoginScreen extends StatelessWidget {
+  const LoginScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +26,7 @@ class RegisterScreen extends StatelessWidget {
                   ),
                   SizedBox(height: 59),
                   Text(
-                    "Sign Up",
+                    "Loging",
                     style: TextStyle(
                       fontSize: 26,
                       fontWeight: FontWeight.w600,
@@ -36,7 +35,7 @@ class RegisterScreen extends StatelessWidget {
                   ),
                   SizedBox(height: 8),
                   Text(
-                    "Enter your credentials to continue",
+                    "Enter your emails and password",
                     style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.w400,
@@ -44,27 +43,28 @@ class RegisterScreen extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: 40),
-                  CustomTextFeild(title: "Username"),
-                  SizedBox(height: 30),
-                  CustomTextFeild(title: "Email", isEmail: true),
+                  CustomTextFeild(title: "Email"),
                   SizedBox(height: 30),
                   CustomTextFeild(title: "Password", isPassword: true),
                   SizedBox(height: 20),
-                  CustomWarningText(),
+                  Align(
+                    alignment: Alignment.bottomRight,
+                    child: Text("Forgot Password?"),
+                  ),
                   SizedBox(height: 30),
                   CustomButton(
-                    title: "Sign Up",
+                    title: "Log In",
                     onTap: () {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const HomeScreen(),
+                          builder: (context) => const RegisterScreen(),
                         ),
                       );
                     },
                   ),
                   SizedBox(height: 25),
-                  CustomBottomText(title: "Already have an account? "),
+                  CustomBottomText(title: "Don’t have an account? "),
                 ],
               ),
             ),
