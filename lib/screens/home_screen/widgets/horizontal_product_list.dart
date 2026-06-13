@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:groce_app/model/peoduct_data_model.dart';
 import 'package:groce_app/screens/home_screen/widgets/product_card.dart';
+import 'package:groce_app/screens/product_details_screen/screens/product_details_screen.dart';
 
 class HorizontalProductList extends StatelessWidget {
   const HorizontalProductList({super.key, required this.products});
@@ -17,7 +18,12 @@ class HorizontalProductList extends StatelessWidget {
         itemBuilder: (context, index) {
           final product = products[index];
           return InkWell(
-            onTap: () {},
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => ProductDetailsScreen()),
+              );
+            },
             child: ProductCard(
               photo: product.photo,
               name: product.name,
