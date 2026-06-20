@@ -41,6 +41,9 @@ class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
               'assets/icons/shop.svg',
               width: 24,
               height: 24,
+              colorFilter: activeIndex == 0
+                  ? ColorFilter.mode(Color(0xff53B175), BlendMode.srcIn)
+                  : null,
             ),
             label: "Shop",
           ),
@@ -49,6 +52,9 @@ class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
               "assets/icons/explore.svg",
               width: 24,
               height: 24,
+              colorFilter: activeIndex == 1
+                  ? ColorFilter.mode(Color(0xff53B175), BlendMode.srcIn)
+                  : null,
             ),
             label: "Explore",
           ),
@@ -57,6 +63,9 @@ class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
               "assets/icons/cart.svg",
               width: 24,
               height: 24,
+              colorFilter: activeIndex == 2
+                  ? ColorFilter.mode(Color(0xff53B175), BlendMode.srcIn)
+                  : null,
             ),
             label: "Cart",
           ),
@@ -65,6 +74,9 @@ class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
               "assets/icons/favourite.svg",
               width: 24,
               height: 24,
+              colorFilter: activeIndex == 3
+                  ? ColorFilter.mode(Color(0xff53B175), BlendMode.srcIn)
+                  : null,
             ),
             label: "Favourite",
           ),
@@ -73,6 +85,9 @@ class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
               "assets/icons/account.svg",
               width: 24,
               height: 24,
+              colorFilter: activeIndex == 4
+                  ? ColorFilter.mode(Color(0xff53B175), BlendMode.srcIn)
+                  : null,
             ),
             label: "Person",
           ),
