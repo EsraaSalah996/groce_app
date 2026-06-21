@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:groce_app/screens/home_screen/screens/home_screen.dart';
-import 'package:groce_app/shared_widgets/custom_bottom_text.dart';
-import 'package:groce_app/shared_widgets/custom_button.dart';
-import 'package:groce_app/shared_widgets/custom_screen_background.dart';
-import 'package:groce_app/shared_widgets/custom_text_feild.dart';
+import 'package:groce_app/core/shared_widgets/shared_widgets/custom_bottom_text.dart';
+import 'package:groce_app/core/shared_widgets/shared_widgets/custom_button.dart';
+import 'package:groce_app/core/shared_widgets/shared_widgets/custom_screen_background.dart';
+import 'package:groce_app/core/shared_widgets/shared_widgets/custom_text_feild.dart';
 import 'package:groce_app/screens/register_screen/widgets/custom_warning_text.dart';
 
 class RegisterScreen extends StatelessWidget {

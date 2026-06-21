@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:groce_app/model/category_model.dart';
+import 'package:groce_app/core/model/category_model.dart';
 import 'package:groce_app/screens/expolr_screen/widgets/product_category_card.dart';
 
 class CategoriesGrid extends StatelessWidget {

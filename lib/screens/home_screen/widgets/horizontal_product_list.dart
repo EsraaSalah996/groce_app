@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:groce_app/model/peoduct_data_model.dart';
+import 'package:groce_app/core/model/peoduct_data_model.dart';
 import 'package:groce_app/screens/home_screen/widgets/product_card.dart';
 import 'package:groce_app/screens/product_details_screen/screens/product_details_screen.dart';
 

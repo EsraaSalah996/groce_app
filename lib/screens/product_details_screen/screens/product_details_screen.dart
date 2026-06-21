@@ -6,7 +6,7 @@ import 'package:groce_app/screens/product_details_screen/widgets/price_and_quant
 import 'package:groce_app/screens/product_details_screen/widgets/product_details_header.dart';
 import 'package:groce_app/screens/product_details_screen/widgets/product_title.dart';
 import 'package:groce_app/screens/product_details_screen/widgets/review_part.dart';
-import 'package:groce_app/shared_widgets/custom_button.dart';
+import 'package:groce_app/core/shared_widgets/shared_widgets/custom_button.dart';
 
 class ProductDetailsScreen extends StatelessWidget {
   const ProductDetailsScreen({super.key});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:groce_app/model/category_model.dart';
+import 'package:groce_app/core/model/category_model.dart';
 import 'package:groce_app/screens/expolr_screen/widgets/categories_grid.dart';
-import 'package:groce_app/shared_widgets/custom_search_bar.dart';
+import 'package:groce_app/core/shared_widgets/shared_widgets/custom_search_bar.dart';
 
 class ExplorScreen extends StatelessWidget {
   ExplorScreen({super.key});

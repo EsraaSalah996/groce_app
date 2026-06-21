@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:groce_app/model/peoduct_data_model.dart';
+import 'package:groce_app/core/model/peoduct_data_model.dart';
 import 'package:groce_app/screens/home_screen/widgets/horizontal_product_list.dart';
-import 'package:groce_app/shared_widgets/custom_search_bar.dart';
-import 'package:groce_app/shared_widgets/title_header.dart';
+import 'package:groce_app/core/shared_widgets/shared_widgets/custom_search_bar.dart';
+import 'package:groce_app/core/shared_widgets/shared_widgets/title_header.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
