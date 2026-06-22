@@ -13,7 +13,6 @@ class VerticalFavouriteItems extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 10),
       itemCount: items.length,
       itemBuilder: (context, index) {
-        // هنا بننادي على الكارت اللي عملناه في الخطوة 2
         return FavouriteItemCard(item: items[index]);
       },
       separatorBuilder: (context, index) {
