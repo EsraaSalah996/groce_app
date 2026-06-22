@@ -46,7 +46,7 @@ A modern Flutter grocery shopping application built with reusable widgets and cl
 
 ---
 ## Explore Screen
-<img width="305" height="636" alt="Screenshot 2026-06-20 at 7 37 24 PM" src="https://github.com/user-attachments/assets/9e4cb9ae-0ef3-4fb9-a7f8-9bf81921460c" />
+<img width="304" height="635" alt="Screenshot 2026-06-22 at 10 01 42 PM" src="https://github.com/user-attachments/assets/95659b22-0d4d-4551-abb4-dddc31a7b9d1" />
 
 ---
 ## Cart Screen
