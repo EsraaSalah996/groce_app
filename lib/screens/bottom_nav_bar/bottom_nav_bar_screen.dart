@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:groce_app/screens/expolr_screen/screens/explor_screen.dart';
+import 'package:groce_app/screens/favourite_screen/screen/favourite_screen.dart';
 import 'package:groce_app/screens/home_screen/screens/home_screen.dart';
 import 'package:groce_app/screens/my_account_screen/screens/my_account_screen.dart';
 import 'package:groce_app/screens/my_cart/screens/my_cart_screen.dart';
-import 'package:groce_app/screens/product_details_screen/screens/product_details_screen.dart';
 
 class BottomNavBarScreen extends StatefulWidget {
   const BottomNavBarScreen({super.key});
@@ -19,8 +19,7 @@ class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
     HomeScreen(),
     ExplorScreen(),
     MyCartScreen(),
-    ProductDetailsScreen(),
-    MyCartScreen(),
+    FavouriteScreen(),
     MyAccountScreen(),
   ];
   @override
