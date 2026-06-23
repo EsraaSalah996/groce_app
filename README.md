@@ -58,7 +58,7 @@ A modern Flutter grocery shopping application built with reusable widgets and cl
 
 ---
 ## Account Screen
-<img width="299" height="628" alt="Screenshot 2026-06-22 at 9 27 32 PM" src="https://github.com/user-attachments/assets/84e1f45c-0999-49c9-95ab-aa5d22149390" />
+<img width="304" height="635" alt="Screenshot 2026-06-23 at 4 01 53 PM" src="https://github.com/user-attachments/assets/948a4f72-3328-40f3-83ef-71ebb2c58663" />
 
 ---
 
