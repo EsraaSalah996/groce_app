@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:groce_app/core/model/cart_item.dart';
 import 'package:groce_app/core/shared_widgets/shared_widgets/custom_button.dart';
+import 'package:groce_app/screens/bottom_sheet/screens/checkout_bottom_sheet.dart';
 import 'package:groce_app/screens/my_cart/widgets/vertical_list_in_cart.dart';
 
 class MyCartScreen extends StatelessWidget {
@@ -57,7 +58,17 @@ class MyCartScreen extends StatelessWidget {
 
               Expanded(child: VerticalListInCart(products: products)),
               const SizedBox(height: 5),
-              CustomButton(title: "Go to Checkout", onTap: () {}),
+              CustomButton(
+                title: "Go to Checkout",
+                onTap: () {
+                  showModalBottomSheet(
+                    context: context,
+                    isScrollControlled: true,
+                    backgroundColor: Colors.transparent,
+                    builder: (_) => const CheckoutBottomSheet(),
+                  );
+                },
+              ),
               const SizedBox(height: 25),
             ],
           ),

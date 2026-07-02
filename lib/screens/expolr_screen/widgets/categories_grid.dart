@@ -27,6 +27,7 @@ class CategoriesGrid extends StatelessWidget {
           photo: category.photo,
           boxColor: category.boxColor,
           borderColor: category.borderColor,
+          onTap: () => category.onTap?.call(context),
         );
       },
     );

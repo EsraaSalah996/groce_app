@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:groce_app/core/model/favourite_item_model.dart';
 import 'package:groce_app/core/shared_widgets/shared_widgets/custom_button.dart';
+import 'package:groce_app/screens/error_bottom_sheet/screens/error_bottom_sheet.dart';
 import 'package:groce_app/screens/favourite_screen/widgets/vertical_favourite_items.dart';
-import 'package:groce_app/screens/my_cart/screens/my_cart_screen.dart';
 
 class FavouriteScreen extends StatelessWidget {
   FavouriteScreen({super.key});
@@ -71,9 +71,13 @@ class FavouriteScreen extends StatelessWidget {
               child: CustomButton(
                 title: "Add All To Cart",
                 onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => MyCartScreen()),
+                  showModalBottomSheet(
+                    context: context,
+                    isScrollControlled: true,
+                    backgroundColor: Colors.transparent,
+                    isDismissible: false,
+                    enableDrag: false,
+                    builder: (context) => const ErrorBottomSheet(),
                   );
                 },
               ),

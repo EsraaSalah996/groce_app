@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:groce_app/screens/bottom_nav_bar/bottom_nav_bar_screen.dart';
 import 'package:groce_app/screens/home_screen/screens/home_screen.dart';
 import 'package:groce_app/core/shared_widgets/shared_widgets/custom_bottom_text.dart';
 import 'package:groce_app/core/shared_widgets/shared_widgets/custom_button.dart';
@@ -57,7 +58,9 @@ class RegisterScreen extends StatelessWidget {
                     onTap: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => HomeScreen()),
+                        MaterialPageRoute(
+                          builder: (context) => BottomNavBarScreen(),
+                        ),
                       );
                     },
                   ),

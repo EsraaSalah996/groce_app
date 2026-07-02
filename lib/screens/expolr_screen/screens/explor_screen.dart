@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:groce_app/core/model/category_model.dart';
+import 'package:groce_app/screens/beverage_screen/screen/beverages_screen.dart';
 import 'package:groce_app/screens/expolr_screen/widgets/categories_grid.dart';
 import 'package:groce_app/core/shared_widgets/shared_widgets/custom_search_bar.dart';
 
@@ -41,6 +42,12 @@ class ExplorScreen extends StatelessWidget {
       photo: 'assets/images/beverages.png',
       boxColor: const Color(0xFFEDF7FC),
       borderColor: const Color(0xFFB7DFF5),
+      onTap: (context) {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => const BeveragesScreen()),
+        );
+      },
     ),
   ];
 
