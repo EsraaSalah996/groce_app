@@ -5,6 +5,8 @@ A modern Flutter grocery shopping application built with reusable widgets and cl
 
 # ✨ Features
 
+*  Splash screen
+*  Onboarding screen
 *  Login Screen
 *  Register Screen
 *  Home Screen
