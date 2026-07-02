@@ -34,34 +34,28 @@ A modern Flutter grocery shopping application built with reusable widgets and cl
 
 ---
 
-## Register Screen
-<img width="306" height="634" alt="Screenshot 2026-05-24 at 12 08 21 AM" src="https://github.com/user-attachments/assets/1290432b-7a2a-4262-8d1f-11c149581104" />
+## Register,Home, Explore Screens
+<img width="1920" height="1080" alt="Untitled design" src="https://github.com/user-attachments/assets/d5dd311c-841e-42ea-9bc0-04932f91c2c5" />
+
 
 ---
-## Home Screen
-<img width="321" height="681" alt="Screenshot 2026-06-13 at 3 23 37 PM" src="https://github.com/user-attachments/assets/29d21bad-79e6-4485-a10d-78782bce3332" />
+## My cart, Favorite, Person Screens
+<img width="1920" height="1080" alt="Untitled design" src="https://github.com/user-attachments/assets/c6a6b29f-959c-44a6-b8ba-e0bba40f32a9" />
+
 
 ---
-## Product Details Screen
-<img width="321" height="681" alt="Screenshot 2026-06-13 at 3 23 56 PM" src="https://github.com/user-attachments/assets/6fc95ddd-3dad-4161-b9c4-5bd360ed2890" />
+## Product Details, Beverages,Filter Screen
+<img width="1920" height="1080" alt="Untitled design" src="https://github.com/user-attachments/assets/b4d63cdd-5349-4cc4-8108-385d3546104b" />
+
 
 ---
-## Explore Screen
-<img width="304" height="635" alt="Screenshot 2026-06-22 at 10 01 42 PM" src="https://github.com/user-attachments/assets/95659b22-0d4d-4551-abb4-dddc31a7b9d1" />
+## Checkout, order accepted, error Screen
+<img width="1920" height="1080" alt="Untitled design" src="https://github.com/user-attachments/assets/4bb20fef-1e87-4005-929c-c447a187f16b" />
+
 
 ---
-## Cart Screen
-<img width="301" height="626" alt="Screenshot 2026-06-22 at 2 35 00 AM" src="https://github.com/user-attachments/assets/c0765b4d-d988-417f-be4a-d0893457b85f" />
 
----
-## Favourite Screen
-<img width="301" height="626" alt="Screenshot 2026-06-22 at 7 00 28 PM" src="https://github.com/user-attachments/assets/608e8081-6ddb-494c-a37b-dbfba9ea52a7" />
 
----
-## Account Screen
-<img width="304" height="635" alt="Screenshot 2026-06-23 at 4 01 53 PM" src="https://github.com/user-attachments/assets/948a4f72-3328-40f3-83ef-71ebb2c58663" />
-
----
 
 
 
